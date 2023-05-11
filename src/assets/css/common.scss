@@ -1,0 +1,14 @@
+@import '~@/assets/css/variable.scss';
+@import '~@/assets/css/mixin.scss';
+.a-link {
+  &:hover {
+    cursor: pointer;
+    color: $color-blue;
+  }
+  &:active {
+    color: $color-blue;
+  }
+}
+.no-border {
+  border: none;
+}
